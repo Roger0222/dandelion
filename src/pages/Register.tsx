@@ -158,7 +158,7 @@ const Register: React.FC = () => {
                             <p>Your account has been created successfully.</p>
                             <p>Please check your email address.</p>
                         </IonText>
-                        <IonButton routerLink="/it35-lab" routerDirection="back" color="primary">
+                        <IonButton routerLink="/dandelion" routerDirection="back" color="primary">
                             Go to Login
                         </IonButton>
                     </IonContent>
