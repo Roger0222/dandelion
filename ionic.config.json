@@ -1,0 +1,7 @@
+{
+  "name": "dandelion",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
