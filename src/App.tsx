@@ -32,6 +32,7 @@ import '@ionic/react/css/palettes/dark.system.css';
 /* Theme variables */
 import './theme/variables.css';
 import Login from './pages/Login';
+import Menu from './pages/Menu';
 import Register from './pages/Register';
 
 setupIonicReact();
@@ -41,6 +42,7 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonRouterOutlet>
       <Route exact path="/dandelion" component={Login} />
+      <Route exact path="/dandelion/app" component={Menu} />
       <Route exact path="/dandelion/register" component={Register} />
       </IonRouterOutlet>
     </IonReactRouter>
